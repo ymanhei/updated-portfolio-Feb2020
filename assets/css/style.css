@@ -1,0 +1,92 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+body {
+    padding: 100px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+  }
+  
+  #headerbox{
+    
+    float:left;
+    height: 100%;
+  }
+
+  h2{
+    color: #4aaaa5;
+    vertical-align: middle;
+  }
+
+  button[type=submit] {
+    background-color: #4CAF50;
+  }
+
+  h4 {
+    float:right;
+  }
+
+  a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .imgbox{
+    position: relative;
+    display: inline-block;
+  }
+
+  .imgbox .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;   
+    text-align: center;
+    vertical-align: middle;
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 100%;
+}
+
+#linkedinimg{
+height: 5%;
+width: 5%;
+border: none;
+}
+
+ #githubimg{
+  height: 5%;
+  width: 5%;
+  border: none;
+  }
+
+  #emailimg {
+    height: 5%;
+    width: 5%;
+    border: none;
+    }
+
+    #phoneimg {
+      height: 5%;
+      width: 5%;
+      border: none;
+      }
+
+      #cvimg {
+        height: 5%;
+        width: 5%;
+        border: none;
+        }
